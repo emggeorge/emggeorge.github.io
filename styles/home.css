@@ -45,3 +45,9 @@ li{
     margin: 0 auto;
     max-width: 10%;
 }
+
+.done {
+    background-color: darkolivegreen;
+    color: maroon;
+    text-decoration: line-through solid salmon 2px;
+}
