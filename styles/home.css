@@ -40,10 +40,13 @@ li{
     max-width: 60%;
 }
 
-.bug {
+/* need to figure out if I can get styling to apply to all cycling images
+   and use .bug. I can only get it to work right now by applying it to 
+   all images */
+img {
     display: block;
-    margin: 0 auto;
-    max-width: 150px;
+    margin: auto;
+    max-width: 350px;
 }
 
 .done {
