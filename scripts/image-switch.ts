@@ -8,7 +8,9 @@ myImage?.addEventListener("click", () => {
         myImage.setAttribute("src", "images/excited.png");
     } else if (mySrc === "images/excited.png") {
         myImage.setAttribute("src", "images/think.png");
-    } else {
+    } else if (mySrc === "images/think.png") {
         myImage.setAttribute("src", "images/relief.png");
+    } else {
+        myImage.setAttribute("src", "images/me.png");
     }
 })
