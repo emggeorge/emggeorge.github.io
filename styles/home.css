@@ -1,7 +1,7 @@
 html, body {
     background-color: #b4b4b4;
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 p {
@@ -43,5 +43,5 @@ li{
 .bug {
     display: block;
     margin: 0 auto;
-    max-width: 40%;
+    max-width: 10%;
 }
