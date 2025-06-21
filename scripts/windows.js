@@ -1,4 +1,4 @@
-let zIndexCounter = 0;
+let zIndexCounter = 1;
 
 document.querySelectorAll('.window').forEach(windowDiv => {
     const titleBar = windowDiv.querySelector('.title-bar');
