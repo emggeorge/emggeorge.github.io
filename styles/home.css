@@ -38,6 +38,8 @@ li{
     display: block;
     margin: 0 auto;
     max-width: 60%;
+    bottom: 0%;
+    position: absolute;
 }
 
 /* need to figure out if I can get styling to apply to all cycling images
