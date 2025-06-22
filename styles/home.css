@@ -4,6 +4,10 @@ html, body {
     max-height: 100vh;
 }
 
+body {
+    background: url("../img/desktop/boat.jpg") fixed no-repeat cover;
+}
+
 p {
     font-size: 14px;
     font-family: sans-serif;

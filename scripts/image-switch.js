@@ -2,15 +2,15 @@ const myImage = document.querySelector("img");
 
 myImage?.addEventListener("click", () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc  === "images/me.png") {
-        myImage.setAttribute("src", "images/attention.png");
-    } else if (mySrc === "images/attention.png") {
-        myImage.setAttribute("src", "images/excited.png");
-    } else if (mySrc === "images/excited.png") {
-        myImage.setAttribute("src", "images/think.png");
-    } else if (mySrc === "images/think.png") {
-        myImage.setAttribute("src", "images/relief.png");
+    if (mySrc  === "img/me/me.png") {
+        myImage.setAttribute("src", "img/me/attention.png");
+    } else if (mySrc === "img/me/attention.png") {
+        myImage.setAttribute("src", "img/me/excited.png");
+    } else if (mySrc === "img/me/excited.png") {
+        myImage.setAttribute("src", "img/me/think.png");
+    } else if (mySrc === "img/me/think.png") {
+        myImage.setAttribute("src", "img/me/relief.png");
     } else {
-        myImage.setAttribute("src", "images/me.png");
+        myImage.setAttribute("src", "img/me/me.png");
     }
 })
