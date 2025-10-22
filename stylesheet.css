@@ -1,0 +1,43 @@
+body {
+  background-image:url('img/desktop/seattle.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 50px 10px;
+}
+
+.blog {
+  text-align: center;
+  position:relative;
+  background: rgb(204, 204, 204);
+  background: rgba(204, 204, 204, 0.5);
+}
+
+h1 {
+  font-size: 14 px;
+}
+
+p {
+  text-align: left;
+}
+
+hr {
+  border: none;
+  color: #333333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  content: "~+~";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+}
